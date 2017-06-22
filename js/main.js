@@ -1,7 +1,7 @@
 /**
  * jTinder initialization
  */
-import $ from 'jquery';
+
 $("#cardslide").jTinder({
     // dislike callback
     onDislike: function(item) {

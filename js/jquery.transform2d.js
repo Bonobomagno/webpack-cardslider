@@ -16,7 +16,7 @@
  * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
  *
  */
-import $ from 'jquery';
+
 
 function jtrasform($, window, document, Math, undefined) {
 

@@ -1,18 +1,17 @@
-.cardslide {
+#cardslide {
     position: relative;
     background: #fff;
-    width: 95%;
-    height: 100%;
+    height: 60vh;
 }
 
-.cardslide ul {
+#cardslide ul {
     margin: 0;
     position: relative;
     display: block;
     height: 100%;
 }
 
-.cardslide li {
+#cardslide li {
     display: block;
     width: 100%;
     height: 100%;
@@ -43,7 +42,7 @@
 
 /* Image text */
 
-.cardslide li h2 {
+#cardslide li h2 {
     color: #fff;
     font-size: 30px;
     text-align: center;
@@ -57,7 +56,7 @@
 
 /* Image rotation */
 
-.cardslide li.pane1 {
+#cardslide li.pane1 {
     -webkit-transform: rotate(-1deg);
     -moz-transform: rotate(-1deg);
     -o-transform: rotate(-1deg);
@@ -65,7 +64,7 @@
     transform: rotate(-1deg);
 }
 
-.cardslide li.pane2 {
+#cardslide li.pane2 {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
@@ -76,8 +75,8 @@
 
 /* Like & dislike badge images */
 
-.cardslide .like,
-.cardslide .dislike {
+#cardslide .like,
+#cardslide .dislike {
     background: url("../img/liked.png") no-repeat scroll 0 0;
     opacity: 0;
     height: 80px;
@@ -96,7 +95,7 @@
     backface-visibility: hidden;
 }
 
-.cardslide .dislike {
+#cardslide .dislike {
     right: 45px;
     left: auto;
     background: url("../img/nope.png") no-repeat scroll 0 0;
@@ -105,7 +104,7 @@
 
 /* Image container */
 
-.cardslide .img {
+#cardslide .img {
     height: 90%;
     width: 100%;
     margin-bottom: 5px;
@@ -125,27 +124,38 @@
 
 /* jTinder images */
 
-.cardslide .pane5 .img {
+#cardslide .pane5 .img {
     background: url("../img/pane/pane5.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
-.cardslide .pane4 .img {
+#cardslide .pane4 .img {
     background: url("../img/pane/pane4.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
-.cardslide .pane3 .img {
+#cardslide .pane3 .img {
     background: url("../img/pane/pane3.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
-.cardslide .pane2 .img {
+#cardslide .pane2 .img {
     background: url("../img/pane/pane2.jpg") no-repeat scroll center center;
     background-size: cover;
 }
 
-.cardslide .pane1 .img {
+#cardslide .pane1 .img {
     background: url("../img/pane/pane1.jpg") no-repeat scroll center center;
     background-size: cover;
+}
+
+
+/* jTinder status text */
+
+#status {
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 30px;
+    font-weight: bold;
 }
